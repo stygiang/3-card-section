@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+//   height: 100%;
 }
 .center-text {
   margin-top: 1.5rem;
@@ -30,7 +30,8 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   &__three-grid {
-      margin-top: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
     box-shadow: 3px 5px 5px rgba(black, 0.5);
     padding: 0.3rem;
     border-radius: 0.5rem;
@@ -88,5 +89,10 @@ body {
     // transition: all;
     // animation-name: scale;
     // animation-duration: 3s;
+  }
+}
+@media screen and(max-width:500px) {
+  .row__three-grid {
+    flex: 100%;
   }
 }
