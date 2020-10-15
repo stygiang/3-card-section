@@ -29,15 +29,18 @@ body {
   justify-content: space-between; }
   .row__three-grid {
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
-    padding: .3rem;
-    border-radius: .5rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
     height: 50rem;
     width: 35rem; }
 
 .header {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  font-weight: 700; }
+  font-weight: 700;
+  background-image: linear-gradient(to right, #7899d4, black);
+  -webkit-background-clip: text;
+  color: transparent; }
 
 .paragraph {
   font-weight: 500;
@@ -49,25 +52,25 @@ body {
   font-size: 1.5rem;
   font-family: 'Noto Sans', sans-serif;
   margin-top: 3rem;
-  padding: .5rem;
-  border: 1px solid #7899D4;
-  -webkit-border: 1px solid #7899D4;
+  padding: 0.5rem;
+  border: 1px solid #7899d4;
+  -webkit-border: 1px solid #7899d4;
   text-transform: uppercase;
   -webkit-text-transform: uppercase;
   text-decoration: none;
   -webkit-text-decoration: none;
-  color: #7899D4; }
+  color: #7899d4; }
   .btn:link {
     font-family: 'Noto Sans', sans-serif;
     margin-top: 3rem;
     padding: 0.5rem;
-    border: 1px solid #7899D4;
+    border: 1px solid #7899d4;
     text-transform: uppercase;
     text-decoration: none;
-    color: #7899D4; }
+    color: #7899d4; }
   .btn:hover {
-    background-color: #7899D4;
+    background-color: #7899d4;
     color: white; }
   .btn:active {
-    background-color: #7899D4;
+    background-color: #7899d4;
     color: white; }
